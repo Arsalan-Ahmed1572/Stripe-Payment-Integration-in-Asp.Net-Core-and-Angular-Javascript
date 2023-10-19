@@ -17,3 +17,13 @@ public class Program
 
 
 ```
+
+<pre lang="no-highlight"><code>
+```cs
+public void Main()
+{
+  Console.WriteLine("Github Style Code blocks");
+}
+```
+</code></pre>
+
