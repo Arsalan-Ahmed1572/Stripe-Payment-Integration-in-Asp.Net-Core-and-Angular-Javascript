@@ -42,3 +42,15 @@ Once testing is complete, deploy your ASP.NET Core and Angular application to a 
 Conclusion:
 
 Stripe payment integration in ASP.NET Core and Angular combines the power of a robust server-side framework with a dynamic and user-friendly front-end technology to provide a secure and efficient way to accept online payments in web applications. Properly configured and thoroughly tested, this integration can enhance the user experience and streamline the payment process for your customers.
+```c#
+
+public class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
+
+
+```
