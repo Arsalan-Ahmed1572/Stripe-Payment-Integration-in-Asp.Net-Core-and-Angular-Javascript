@@ -3,19 +3,19 @@ Integrating Stripe payments into an ASP.NET Core web application with JavaScript
 
 Server-Side (ASP.NET Core):
 
-1.Create a new ASP.NET Core project: If you don't already have an ASP.NET Core project, create one using Visual Studio or the .NET CLI.
+1. Create a new ASP.NET Core project: If you don't already have an ASP.NET Core project, create one using Visual Studio or the .NET CLI.
 
-2.Install the Stripe.NET library: You can install the Stripe.NET library using NuGet Package Manager. Open a terminal and run:
+2. Install the Stripe.NET library: You can install the Stripe.NET library using NuGet Package Manager. Open a terminal and run:
 ```c#
 [dotnet add package Stripe.net]
 ```
 
-3.Configure Stripe: In your Startup.cs file, configure your Stripe API keys in the ConfigureServices method.
+3. Configure Stripe: In your Startup.cs file, configure your Stripe API keys in the ConfigureServices method.
 ```c#
 services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
 ```
 
-4.Create a configuration section in appsettings.json:
+4. Create a configuration section in appsettings.json:
 
 ```json
 "Stripe": {
@@ -23,11 +23,4 @@ services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));
     "PublishableKey": "your_publishable_key"
 }
 ```
-<pre lang="no-highlight"><code>
-```cs
-public void Main()
-{
-  Console.WriteLine("Github Style Code blocks");
-}
-```
-</code></pre>
+
